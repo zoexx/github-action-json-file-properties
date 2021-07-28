@@ -12,7 +12,7 @@ Get properties
 ---
 - name: get properties
   id: json_properties
-  uses: zoexx/github-action-json-file-properties@latest
+  uses: zoexx/github-action-json-file-properties@release
   with:
     file_path: "package.json"
 
@@ -27,7 +27,7 @@ Get a specified property **value** with `prop_path`
 ---
 - name: get specified property
   id: repository_type
-  uses: zoexx/github-action-json-file-properties@latest
+  uses: zoexx/github-action-json-file-properties@release
   with:
     file_path: "package.json"
     prop_path: "repository.type"
