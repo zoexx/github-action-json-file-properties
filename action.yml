@@ -1,0 +1,16 @@
+name: "Get Properties From JSON File"
+description: "GitHub Action to load properties from a JSON file."
+author: "zoexx"
+inputs:
+  file_path:
+    required: true
+    description: "path to file"
+  prop_path:
+    required: false
+    description: "e.g.: key1.key2"
+runs:
+  using: "node12"
+  main: "dist/index.js"
+branding:
+  color: "yellow"
+  icon: "fast-forward"
