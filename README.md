@@ -26,12 +26,12 @@ Get a specified property **value** with `prop_path`
 ```yaml
 ---
 - name: get specified property
-  id: json_name
+  id: repository_type
   uses: ./
   with:
     file_path: "package.json"
     prop_path: "repository.type"
 
 - run: |
-    echo ${{steps.get_json_nested_properties.outputs.value}}
+    echo ${{steps.repository_type.outputs.value}}
 ```
