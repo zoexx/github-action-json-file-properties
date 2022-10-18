@@ -1,11 +1,11 @@
 {
   "name": "github-action-json-file-properties",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "zoexx",
   "description": "GitHub Action to load properties from a JSON file.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --platform=node --target=node12 --outfile=dist/index.js"
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node16 --outfile=dist/index.js"
   },
   "repository": {
     "type": "git",
