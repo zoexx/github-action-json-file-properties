@@ -9,7 +9,7 @@ inputs:
     required: false
     description: "e.g.: key1.key2"
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
 branding:
   color: "yellow"
